@@ -1,10 +1,16 @@
 import React from 'react'
+import 
+{
+    Nav,
+    PromoBox
+} from './Header.elements';
 
 function Header() {
     return (
-        <h1>
-            "Here is the Header"
-        </h1>
+        <Nav>
+            <PromoBox></PromoBox>
+            
+        </Nav>
     )
 }
 
