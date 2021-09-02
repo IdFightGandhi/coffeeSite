@@ -6,11 +6,6 @@ function App() {
     <div>
       <h1>Coffee Shop</h1>
       <Carousel />
-
-  
-
-
-
     </div>
   );
 }
