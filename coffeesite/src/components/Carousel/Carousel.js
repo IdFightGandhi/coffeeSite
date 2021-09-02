@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
-const Carousel = () => {
-    return <div>
-        
-    </div>
+export const Carousel = () => {
+    return (
+        <div>
+            Slider MVP
+        </div>
+    )
 }
 
-export default Carousel
