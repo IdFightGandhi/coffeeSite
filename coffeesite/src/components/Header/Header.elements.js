@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import { Container } from '../../globalStyles'
 
 export const Nav = styled.nav `
 align-items: center;
@@ -61,4 +59,9 @@ transition-duration: 0.5s;
 transition-property: all;
 transition-timing-function: cubic-bezier(0.12,0.96,0.53,1.01);
 z-index: 10;
+`
+
+export const MenuContainer = styled.div `
+
+
 `
