@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
-import { Slideshow } from './components/Carousel/Carousel';
+import { LandingSlider } from './components/Slider';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import GlobalStyle from './globalStyles';
 import {CoffeeStore, CoffeeMakerStore, AccessoriesStore} from './components/pages/Store'
@@ -22,7 +22,7 @@ function App() {
       </Router>
 
       
-      <Slideshow />
+      <LandingSlider />
     </div>
 
   );
