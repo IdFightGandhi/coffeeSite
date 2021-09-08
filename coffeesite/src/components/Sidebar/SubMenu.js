@@ -7,7 +7,7 @@ import {
 }from './Sidebar.elements'
 
 
-const SubMenu = ( {item} ) => {
+const SubMenu = ({ item }) => {
     return (
         <>
         <SidebarLink to={item.path}>
