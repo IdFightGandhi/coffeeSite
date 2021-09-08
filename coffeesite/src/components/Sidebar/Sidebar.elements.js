@@ -23,14 +23,14 @@ align-items: center;
 
 export const SidebarNav = styled.nav`
 background: gold;
-width: 250px;
+width: 200px;
 height:100vh;
 display: flex;
 justify-content: center;
 position: fixed;
 top: 0;
 left: ${({ sidenav }) => (sidenav ? '0' : '-100%')};
-transition: 350ms;
+transition: 150ms;
 z-index: 10;
 `
 
@@ -43,7 +43,7 @@ display: flex;
 color:purple;
 justify-content: space-between;
 align-items: center;
-padding: 20px;
+padding: 10px;
 list-style: none;
 height: 60px;
 text-decoration: none;
@@ -63,4 +63,16 @@ margin-left: 16px;
 
 export const DropdownLink = styled(Link)`
 background: #414757;
+height: 60px;
+padding-left: 2.3rem;
+display: flex;
+align-items: center;
+text-decoration: none;
+color: #f5f5f5;
+font-size: 18px;
+
+&:hover {
+    background: #632ce4;
+    cursor: pointer;
+}
 `
