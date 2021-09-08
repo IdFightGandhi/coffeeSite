@@ -23,7 +23,6 @@ export const Slideshow = () => {
 
     return (
         <div>
-            <h1 style={{ textAlign: "center" }}>Coffee Vibes</h1>
             <div>
                 <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={5000}>
                     {Data}
