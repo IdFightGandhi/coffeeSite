@@ -11,26 +11,26 @@ import {
 
 
 
-} from './SideNav.elements'
+} from './Sidebar.elements'
 
 
 
 
-const SideNav = () => {
-    const [sidenav, setSideNav] = useState(false)
+const Sidebar = () => {
+    const [sidebar, setSidebar] = useState(false)
 
-    const showSideNav = () => setSideNav(!sidenav)
+    const showSidebar = () => setSidebar(!sidebar)
     return (
         <>
             <Nav>
                 <NavIcon to="#">
-                    <FaIcons.FaBars onClick={showSideNav} />
+                    <FaIcons.FaBars onClick={showSidebar} />
                 </NavIcon>
             </Nav>
-            <SidebarNav>
+            <SidebarNav sidenav={sidebar}>
                 <SidebarWrap>
                 <NavIcon to="#">
-                    <AiIcons.AiOutlineClose /> 
+                    <AiIcons.AiOutlineClose onClick={showSidebar} /> 
                 </NavIcon>
                 </SidebarWrap>
             </SidebarNav>
@@ -39,4 +39,4 @@ const SideNav = () => {
     )
 }
 
-export default SideNav
+export default Sidebar
