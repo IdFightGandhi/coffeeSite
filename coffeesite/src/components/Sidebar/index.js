@@ -9,11 +9,10 @@ import {
     SidebarNav,
     SidebarWrap
 
-
-
 } from './Sidebar.elements'
 import { SidebarData } from './SidebarData'
 import SubMenu from './SubMenu'
+import { IconContext } from 'react-icons/lib'
 
 
 
@@ -24,6 +23,7 @@ const Sidebar = () => {
     const showSidebar = () => setSidebar(!sidebar)
     return (
         <>
+        <IconContext.Provider value={{ color: 'black'}}>
             <Nav>
                 <NavIcon to="#">
                     <FaIcons.FaBars onClick={showSidebar} />
@@ -39,6 +39,7 @@ const Sidebar = () => {
                 })}
                 </SidebarWrap>
             </SidebarNav>
+            </IconContext.Provider>
             
         </>
     )
