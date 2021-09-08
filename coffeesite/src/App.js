@@ -1,25 +1,16 @@
 import './App.css';
 import Header from './components/Header'
-<<<<<<< HEAD
-import TopNav from './components/TopNav'
-import { LandingSlider } from './components/Slider';
-=======
 import Sidebar from './components/Sidebar'
-import { Slideshow } from './components/Carousel/Carousel';
+import { LandingSlider } from './components/Slider';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import GlobalStyle from './globalStyles';
 import {CoffeeStore, CoffeeMakerStore, AccessoriesStore} from './components/pages/Store'
 
->>>>>>> origin
 
 function App() {
   return (
     <div>
       <Header id="black-border" />
-<<<<<<< HEAD
-      <TopNav id="topnav"/>
-      <LandingSlider />
-=======
       <Router>
         <Sidebar id="sidenav" />
         <Switch>
@@ -31,8 +22,7 @@ function App() {
       </Router>
 
       
-      <Slideshow />
->>>>>>> origin
+      <LandingSlider />
     </div>
 
   );
