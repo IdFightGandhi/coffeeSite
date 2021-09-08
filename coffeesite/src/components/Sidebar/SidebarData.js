@@ -28,7 +28,7 @@ export const SidebarData = [
     {
         title: 'Store',
         path: '/store',
-        icon: <AiIcons.FaCartPlus />,
+        icon: <FaIcons.FaCartPlus />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpFill />,
         subNav: [

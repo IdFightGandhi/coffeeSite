@@ -2,11 +2,12 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const Nav = styled.div`
-background: #15171c;
+background: transparent;
 height: 80px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
+z-index:9;
 
 
 `;
@@ -21,7 +22,7 @@ align-items: center;
 `
 
 export const SidebarNav = styled.nav`
-background: #15171c;
+background: gold;
 width: 250px;
 height:100vh;
 display: flex;
@@ -37,3 +38,12 @@ export const SidebarWrap = styled.div`
 width: 100%;
 `
 
+export const SidebarLink = styled(Link)`
+display: flex;
+color:purple;
+
+`
+
+export const SidebarLabel = styled.span`
+
+`

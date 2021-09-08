@@ -12,6 +12,8 @@ import {
 
 
 } from './Sidebar.elements'
+import { SidebarData } from './SidebarData'
+import SubMenu from './SubMenu'
 
 
 
@@ -32,6 +34,9 @@ const Sidebar = () => {
                 <NavIcon to="#">
                     <AiIcons.AiOutlineClose onClick={showSidebar} /> 
                 </NavIcon>
+                {SidebarData.map((item, index) => {
+                    return<SubMenu item={item} key={index} />
+                })}
                 </SidebarWrap>
             </SidebarNav>
             
