@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 import * as FaIcons from 'react-icons/fa'
@@ -17,11 +17,14 @@ import {
 
 
 const SideNav = () => {
+    const [sidenav, setSideNav] = useState(false)
+
+    const showSideNav = () => setSideNav(!sidenav)
     return (
         <>
             <Nav>
                 <NavIcon to="#">
-                    <FaIcons.FaBars />
+                    <FaIcons.FaBars onClick={showSideNav} />
                 </NavIcon>
             </Nav>
             <SidebarNav>
