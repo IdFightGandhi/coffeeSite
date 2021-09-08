@@ -1,3 +1,5 @@
+
+
 /* style sheet for classes that come with react-elastic-carousel package */
 .rec.rec-arrow {
   border-radius: 300;
@@ -39,3 +41,5 @@ button.rec-dot:active,
 button.rec-dot:focus {
   box-shadow: 0 0 1px 3px black;
 }
+
+/* Wrapper CSS for slideshow */

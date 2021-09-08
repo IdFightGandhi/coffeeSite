@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header'
 import TopNav from './components/TopNav'
+import SideNav from './components/SideNav'
 import { Slideshow } from './components/Carousel/Carousel';
 
 function App() {
@@ -8,9 +9,10 @@ function App() {
     <div>
       <Header id="black-border" />
       <TopNav id="topnav"/>
+      <SideNav id="sidenav" />
 
 
-      <h1>Coffee Shop</h1>
+      
       <Slideshow />
     </div>
 
