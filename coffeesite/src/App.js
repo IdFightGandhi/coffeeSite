@@ -8,14 +8,14 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 function App() {
   return (
     <div>
-      <Header id="black-border" />
-      <TopNav id="topnav"/>
+      {/* <Header id="black-border" />
+      <TopNav id="topnav"/> */}
       <Router>
         <Sidebar id="sidenav" />
       </Router>
 
       
-      <Slideshow />
+      {/* <Slideshow /> */}
     </div>
 
   );
