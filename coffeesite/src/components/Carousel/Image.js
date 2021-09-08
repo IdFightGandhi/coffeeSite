@@ -4,7 +4,7 @@ export default styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 200px;
     width: 100%;
     padding: 0 10px;
     background-color: transparent;

@@ -19,8 +19,8 @@ button.rec.rec-arrow:focus {
 .rec.rec-dot {
   background-color: white;
   box-shadow: 0 0 2px 2px rgb(0 0 0 / 50%);
-  height: 25px;
-  width: 25px;
+  height: 10px;
+  width: 10px;
 }
 
 .rec.rec-dot:hover {
