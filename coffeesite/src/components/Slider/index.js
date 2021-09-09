@@ -1,43 +1,52 @@
 import Slider from "react-slick";
-import { SliderBox } from './Slider.elements';
+import { SliderImgBtn } from './Slider.elements';
 import { sliderSettings } from './Settings';
+import { SliderImages } from './SliderImage';
 
 export const LandingSlider = () => {
 
     return (
-        <SliderBox>
+        <div>
             <Slider {...sliderSettings}>
-                <div>
-                    <h1>IMAGE</h1>
-                    <p>Here is a random word about some coffee stuff!</p>
-                    <button>Click here for blah blah</button>
-                </div>
-                <div>
-                    <h1>IMAGE</h1>
-                    <p>Here is a random word about some coffee stuff!</p>
-                    <button>Click here for blah blah</button>
-                </div>
-                <div>
-                    <h1>IMAGE</h1>
-                    <p>Here is a random word about some coffee stuff!</p>
-                    <button>Click here for blah blah</button>
-                </div>
-                <div>
-                    <h1>IMAGE</h1>
-                    <p>Here is a random word about some coffee stuff!</p>
-                    <button>Click here for blah blah</button>
-                </div>
-                <div>
-                    <h1>IMAGE</h1>
-                    <p>Here is a random word about some coffee stuff!</p>
-                    <button>Click here for blah blah</button>
-                </div>
-                <div>
-                    <h1>IMAGE</h1>
-                    <p>Here is a random word about some coffee stuff!</p>
-                    <button>Click here for blah blah</button>
-                </div>
+
+                <SliderImages
+                    headerTitle="Really Good Chioto Coffee"
+                    src="https://www.acouplecooks.com/wp-content/uploads/2021/05/Latte-Art-069.jpg"
+                    alt="image of coffee goods"
+                    btnText="Discover More"
+                />
+                <SliderImages
+                    headerTitle="Really Good Chioto Coffee"
+                    src="https://www.acouplecooks.com/wp-content/uploads/2020/10/How-to-make-an-Americano-004.jpg"
+                    alt="image of coffee goods"
+                    btnText="Discover More"
+                />
+                <SliderImages
+                    headerTitle="Really Good Chioto Coffee"
+                    src="https://www.acouplecooks.com/wp-content/uploads/2020/10/how-to-make-a-macchiato-003.jpg"
+                    alt="image of coffee goods"
+                    btnText="Discover More"
+                />
+                <SliderImages
+                    headerTitle="Really Good Chioto Coffee"
+                    src="https://www.acouplecooks.com/wp-content/uploads/2020/10/how-to-make-cappuccino-005.jpg"
+                    alt="image of coffee goods"
+                    btnText="Discover More"
+                />
+                <SliderImages
+                    headerTitle="Really Good Chioto Coffee"
+                    src="https://www.acouplecooks.com/wp-content/uploads/2021/04/Flat-White-003-1.jpg"
+                    alt="image of coffee goods"
+                    btnText="Discover More"
+                />
+                <SliderImages
+                    headerTitle="Really Good Chioto Coffee"
+                    src="https://www.acouplecooks.com/wp-content/uploads/2021/08/Cortado-004.jpg"
+                    alt="image of coffee goods"
+                    btnText="Discover More"
+                />
             </Slider>
-        </SliderBox>
+        </div>
     );
+
 }

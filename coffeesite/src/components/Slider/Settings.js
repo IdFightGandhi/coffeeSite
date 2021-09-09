@@ -1,9 +1,9 @@
 export const sliderSettings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 750,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000
+        autoplay: false,
+        autoplaySpeed: 2000
 };
