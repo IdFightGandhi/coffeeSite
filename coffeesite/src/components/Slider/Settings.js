@@ -4,6 +4,6 @@ export const sliderSettings = {
         speed: 750,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000
+        autoplay: true,
+        autoplaySpeed: 2500
 };
