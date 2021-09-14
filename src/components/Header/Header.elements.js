@@ -9,7 +9,7 @@ height: 40px;
 position: absolute;
 z-index: 1;
 width: 100%;
-margin-left:110px;
+margin-left:7em;
 
 `
 
@@ -29,7 +29,7 @@ display: flex;
 width: 100%;
 height: 50px;
 margin-top: 10vh;
-margin-left: 110px;
+margin-left: 7em;
 padding: 0px 90px;
 box-sizing: border-box;
 background: transparent;

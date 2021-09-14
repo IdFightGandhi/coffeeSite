@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
-export const Nav = styled.div`
+export const Nav = styled.li`
 background: transparent;
 height: 80px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
-z-index:auto;
+z-index:1;
 
 
 `;
