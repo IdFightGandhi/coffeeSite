@@ -2,7 +2,6 @@ import React from 'react'
 import 
 {
     Border,
-    HeaderWrapper,
     TransparentNavWrapper,
     TransparentNavBar,
     TransparentNavItem
@@ -12,9 +11,10 @@ import
 function Header() {
     return (
         <>
+            <TransparentNavWrapper id="nav-wrapper">            
             <Border id="black-border" />
-            <TransparentNavWrapper id="nav-wrapper">
-                <TransparentNavBar>
+
+                <TransparentNavBar id="navbar">
                     <TransparentNavItem id="coffee-tab">Test</TransparentNavItem>
                     <TransparentNavItem id="coffee-maker-tab">Test</TransparentNavItem>
                     <TransparentNavItem id="accessory-tab">Test</TransparentNavItem>
