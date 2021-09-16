@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const SliderHeader = styled.h1`
     position: absolute;
+    background-color: rgba(255, 255, 255, .7);
     margin-left: 7em;
+    padding: 12px;
+    border-radius: 3px;
 `;
 
 export const Image = styled.img`
@@ -14,7 +17,12 @@ export const Image = styled.img`
 
 export const SliderImgBtn = styled.button`
     position: absolute;
-    padding: 2em;
-    margin-left: 23em;
-    margin-top: 21em;
+    padding: 8px;
+    margin-left: 14em;
+    margin-top: 12em;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 1px;
 `;
