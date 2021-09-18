@@ -4,38 +4,34 @@ import styled from 'styled-components';
 export const Border = styled.div `
 background-color: black;
 box-sizing: border-box;
-display: flex;
+/* display: flex; */
 height: 40px;
 position: absolute;
 z-index: 1;
 width: 100%;
-margin-left:7em;
 
 `
 
 
-export const TransparentNavWrapper = styled.div `
-margin: 0;
-padding: 0;
-display: flex;
-z-index: 1;
-`
+// export const TransparentNavWrapper = styled.div `
+// margin: 0;
+// padding: 0;
+// display: flex;
+// z-index: 1;
+// `
 
 export const TransparentNavBar = styled.nav `
-position: absolute;
-justify-content: center;
-align-items: center;
+position: relative;
 display: flex;
 width: 100%;
-height: 50px;
-margin-top: 10vh;
+height: 10px;
+/* margin-top: 10vh; */
 margin-left: 7em;
-padding: 0px 90px;
+/* padding: 0px 90px; */
 box-sizing: border-box;
 background: transparent;
 border-bottom: 4px solid pink;
-z-index: 10;
-
+z-index:100;
 
 `
 
@@ -44,10 +40,10 @@ export const TransparentNavItem = styled.ul`
 list-style: none;
 justify-content: center;
 align-items: center;
-margin: 20px 40px;
-padding: 20px;
-display: flex;
-color: purple;
+margin: 100px 40px;
+/* display: flex; */
+justify-content: space-between;
+color: white;
 text-transform: uppercase;
 
 &:hover{

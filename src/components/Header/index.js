@@ -11,16 +11,17 @@ import
 function Header() {
     return (
         <>
-            <TransparentNavWrapper id="nav-wrapper">            
-            <Border id="black-border" />
-
+            {/* <TransparentNavWrapper id="nav-wrapper">             */}
+            
                 <TransparentNavBar id="navbar">
+                    <Border id="black-border" />
+
                     <TransparentNavItem id="coffee-tab">Test</TransparentNavItem>
                     <TransparentNavItem id="coffee-maker-tab">Test</TransparentNavItem>
                     <TransparentNavItem id="accessory-tab">Test</TransparentNavItem>
 
                 </TransparentNavBar>
-            </TransparentNavWrapper>
+            {/* </TransparentNavWrapper> */}
             
         </>
       

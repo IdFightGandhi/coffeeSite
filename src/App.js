@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Sidebar id="sidenav" />
         <Switch>
-          {/* <Route path="/" exact component={Home} />  */}
-          {/* <Route path="/store" exact component={CoffeeStore} />  */}
-          {/* <Route path="/about" exact component={CoffeeMakerStore} />  */}
-          {/* <Route path="/contact" exact component={AccessoriesStore} />  */}
+          {/* <Route path="/" exact component={Home} /> 
+          <Route path="/store" exact component={CoffeeStore} /> 
+          <Route path="/about" exact component={CoffeeMakerStore} /> 
+          <Route path="/contact" exact component={AccessoriesStore} />  */}
         </Switch>
       </Router>
 
