@@ -18,34 +18,31 @@ export const TransparentNavWrapper = styled.div `
 margin: 0;
 padding: 0;
 display: flex;
-z-index: 1;
+z-index: 10;
+left: 110px;
 `
 
 export const TransparentNavBar = styled.nav `
-position: absolute;
+
 justify-content: center;
 align-items: center;
 display: flex;
 width: 100%;
 height: 50px;
-margin-top: 10vh;
-margin-left: 110px;
 padding: 0px 90px;
 box-sizing: border-box;
 background: transparent;
 border-bottom: 4px solid pink;
 z-index: 10;
 
-
 `
 
 export const TransparentNavItem = styled.ul`
-
 list-style: none;
 justify-content: center;
 align-items: center;
-margin: 20px 40px;
-padding: 20px;
+margin: 10px 20px;
+padding: 40px;
 display: flex;
 color: purple;
 text-transform: uppercase;

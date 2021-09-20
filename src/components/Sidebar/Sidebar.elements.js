@@ -7,7 +7,7 @@ height: 80px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
-z-index:9;
+z-index:auto;
 
 
 `;
