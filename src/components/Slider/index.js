@@ -7,6 +7,8 @@ import { sliderSettings } from './Settings';
 import coffeecup from '../../images/coffeecup2.jpeg'
 import coffeedrinker from '../../images/coffeedrinker.jpeg'
 import coffeemachine from '../../images/coffeemachine.jpeg'
+import {SliderDetails} from '../Slider/SliderDetails'
+import {SliderImages} from '../Slider/SliderImage'
 
 export const LandingSlider = () => {
 
