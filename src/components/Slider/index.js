@@ -13,7 +13,7 @@ export const LandingSlider = () => {
 
     // I have slider details stored in Slider Details so we can easily update them when needed. Then we map through here and put them into the slider
     const details = SliderDetails.map((deets) => {
-        console.log(deets)
+        // console.log(deets)
         return (
             <SliderImages
                 headerTitle={deets.headerTitle}

@@ -1,12 +1,25 @@
 .slick-track .slick-active button {
-  animation: fadeIn 3s;
+  animation: fadeIn 4s;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
-  -webkit-animation: fadeIn 3s;
-  -moz-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
 }
+
+.slick-track .slick-active h1 {
+  animation: fadeIn 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+
+}
+
+
 @keyframes fadeIn {
   0% {opacity: 0;}
   80% {opacity: 0;}
