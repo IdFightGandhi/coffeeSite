@@ -8,6 +8,7 @@
   -ms-animation: fadeIn 4s;
 }
 
+
 .slick-track .slick-active h1 {
   animation: fadeIn 2s;
   animation-iteration-count: 1;
