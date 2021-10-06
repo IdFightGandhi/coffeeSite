@@ -13,25 +13,25 @@ width: 100%;
 `
 
 
-// export const TransparentNavWrapper = styled.div `
-// margin: 0;
-// padding: 0;
-// display: flex;
-// z-index: 1;
-// `
+export const TransparentNavWrapper = styled.div `
+margin: 0;
+padding: 0;
+z-index: 1;
+border-top: 60px solid black;
+margin-left:7em;
+`
 
 export const TransparentNavBar = styled.nav `
-position: relative;
+position: absolute;
+justify-content: center;
 display: flex;
 width: 100%;
 height: 10px;
 /* margin-top: 10vh; */
-margin-left: 7em;
 /* padding: 0px 90px; */
 box-sizing: border-box;
 background: transparent;
-border-bottom: 4px solid pink;
-z-index:100;
+z-index:1;
 
 `
 
@@ -39,11 +39,10 @@ export const TransparentNavItem = styled.ul`
 
 list-style: none;
 justify-content: center;
-align-items: center;
 margin: 100px 40px;
 /* display: flex; */
 justify-content: space-between;
-color: white;
+color: grey;
 text-transform: uppercase;
 
 &:hover{

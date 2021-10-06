@@ -12,11 +12,29 @@ z-index:1;
 
 `;
 
+export const LogoIcon = styled(Link)`
+margin-left: 2rem;
+font-size: 3rem;
+display: flex;
+flex-direction: column;
+padding-bottom:5em;
+/* margin-bottom: 100px; */
+
+
+`
+
+export const Spacer = styled.div`
+margin: 150, 0;
+height: 100px;
+
+`
+
 export const NavIcon = styled(Link)`
 margin-left: 2rem;
 font-size: 2rem;
 height: 80px;
 display:flex;
+flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 `
