@@ -14,9 +14,9 @@ function Header() {
             <TransparentNavWrapper id="nav-wrapper">            
             
                 <TransparentNavBar id="navbar">
-                    <TransparentNavItem id="coffee-tab">Test</TransparentNavItem>
-                    <TransparentNavItem id="coffee-maker-tab">Test</TransparentNavItem>
-                    <TransparentNavItem id="accessory-tab">Test</TransparentNavItem>
+                    <TransparentNavItem id="coffee-tab">Coffee</TransparentNavItem>
+                    <TransparentNavItem id="coffee-maker-tab">Coffee Makers</TransparentNavItem>
+                    <TransparentNavItem id="accessory-tab">Accessories</TransparentNavItem>
 
                 </TransparentNavBar>
             </TransparentNavWrapper>

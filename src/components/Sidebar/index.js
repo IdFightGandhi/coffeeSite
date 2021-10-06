@@ -37,14 +37,14 @@ const Sidebar = () => {
             </Nav>
             {/* When the sidebar opens, hamburger turns into an X */}
             <SidebarNav sidenav={sidebar}>
-                <SidebarWrap>
-                <NavIcon to="#">
-                    <AiIcons.AiOutlineClose onClick={showSidebar} /> 
-                </NavIcon>
+                
                 {/* This comes from the SidebarData file which maps through the choices and displays */}
                 {SidebarData.map((item, index) => {
                     return<SubMenu item={item} key={index} />
-                })}
+                })}<SidebarWrap>
+                <NavIcon to="#">
+                    <AiIcons.AiOutlineClose onClick={showSidebar} /> 
+                </NavIcon>
                 </SidebarWrap>
                 <Spacer />
             </SidebarNav>

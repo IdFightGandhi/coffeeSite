@@ -30,9 +30,10 @@ height: 100px;
 `
 
 export const NavIcon = styled(Link)`
-margin-left: 2rem;
+margin-left: 1.5rem;
+padding:15px;
 font-size: 2rem;
-height: 80px;
+height: 50px;
 display:flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -40,12 +41,12 @@ align-items: center;
 `
 
 export const SidebarNav = styled.nav`
-background: gold;
+background: white;
 width: 200px;
 height:100vh;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+/* justify-content: space-evenly; */
 position: fixed;
 top: 0;
 left: ${({ sidenav }) => (sidenav ? '0' : '-100%')};
@@ -62,9 +63,10 @@ display: flex;
 color:purple;
 justify-content: space-between;
 align-items: center;
+margin:25px 0px 15px 20px;
 padding: 10px;
 list-style: none;
-height: 60px;
+height: 30px;
 text-decoration: none;
 font-size: 18px;
 
@@ -83,7 +85,7 @@ margin-left: 16px;
 export const DropdownLink = styled(Link)`
 background: #414757;
 height: 60px;
-padding-left: 2.3rem;
+padding-left: 2.5rem;
 display: flex;
 align-items: center;
 text-decoration: none;

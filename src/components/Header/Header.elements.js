@@ -27,8 +27,7 @@ justify-content: center;
 display: flex;
 width: 100%;
 height: 10px;
-/* margin-top: 10vh; */
-/* padding: 0px 90px; */
+
 box-sizing: border-box;
 background: transparent;
 z-index:1;
@@ -42,7 +41,7 @@ justify-content: center;
 margin: 100px 40px;
 /* display: flex; */
 justify-content: space-between;
-color: grey;
+color: gold;
 text-transform: uppercase;
 
 &:hover{
