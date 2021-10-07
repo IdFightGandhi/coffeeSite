@@ -1,27 +1,35 @@
+// images to be used
+import coffeecup from '../../images/coffeecup2.jpeg'
+import coffeedrinker from '../../images/coffeedrinker.jpeg'
+import coffeemachine from '../../images/coffeemachine.jpeg'
+
 export const SliderDetails = [
     {
         headerTitle: "Chioto Coffee",
-        src: "https://www.acouplecooks.com/wp-content/uploads/2021/05/Latte-Art-069.jpg",
+        smallText: "Wake up to the fresh smell of coffee",
+        src: `${coffeecup}`,
         alt: "Cup of coffee",
         btnText: "Discover More"
     },
     {
         headerTitle: "Chioto Supplies",
-        src: "https://www.acouplecooks.com/wp-content/uploads/2020/10/How-to-make-an-Americano-004.jpg",
+        smallText: "Wake up to the fresh smell of coffee",
+        src: `${coffeedrinker}`,
         alt: "Coffee Supplies",
         btnText: "Purchase Supplies"
     },
     {
         headerTitle: "Chioto Coffee",
-        src: "https://www.acouplecooks.com/wp-content/uploads/2021/05/Latte-Art-069.jpg",
+        smallText: "Wake up to the fresh smell of coffee",
+        src: `${coffeemachine}`,
         alt: "Cup of coffee",
         btnText: "Discover More"
     },
     {
         headerTitle: "Chioto Supplies",
-        src: "https://www.acouplecooks.com/wp-content/uploads/2020/10/How-to-make-an-Americano-004.jpg",
+        smallText: "Wake up to the fresh smell of coffee",
+        src: `${coffeecup}`,
         alt: "Coffee Supplies",
         btnText: "Purchase Supplies"
     }
-
 ]
