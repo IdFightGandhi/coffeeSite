@@ -11,6 +11,7 @@ export const SliderHeader = styled.h1`
 export const Image = styled.img`
     height: 30vw;
     max-height: 100vh;
+    position: static;
     width: 100%;
     margin: 0 0 0 12em;
 `;
@@ -22,7 +23,9 @@ export const SliderImgBtn = styled.button`
     margin-top: 12em;
     background-color: black;
     color: white;
-    font-size: 20px;
-    border: 2px solid black;
-    border-radius: 1px;
+    text-border: 1px solid white;
+    /* margin: 6em auto 0; */
+    margin-left:7em;
+    z-index:900
+    
 `;

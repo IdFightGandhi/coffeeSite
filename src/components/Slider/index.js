@@ -4,10 +4,11 @@ import Slider from "react-slick";
 import './index.css';
 // settings for slider
 import { sliderSettings } from './Settings';
-// components
-import { SliderImages } from './SliderImage';
-import { SliderDetails } from "./SliderDetails";
-
+import coffeecup from '../../images/coffeecup2.jpeg'
+import coffeedrinker from '../../images/coffeedrinker.jpeg'
+import coffeemachine from '../../images/coffeemachine.jpeg'
+import {SliderDetails} from '../Slider/SliderDetails'
+import {SliderImages} from '../Slider/SliderImage'
 
 export const LandingSlider = () => {
 
@@ -28,7 +29,36 @@ export const LandingSlider = () => {
     return (
         <div>
             <Slider {...sliderSettings}>
-                {details}
+                <div>
+                    <img src={coffeecup} />
+                    <p>Here is a random word about some coffee stuff!</p>
+                    <button>Click here for blah blah</button>
+                </div>
+                <div>
+                    <img src={coffeedrinker} />
+                    <p>Here is a random word about some coffee stuff!</p>
+                    <button>Click here for blah blah</button>
+                </div>
+                <div>
+                    <img src={coffeemachine} />
+                    <p>Here is a random word about some coffee stuff!</p>
+                    <button>Click here for blah blah</button>
+                </div>
+                <div>
+                    <h1>IMAGE</h1>
+                    <p>Here is a random word about some coffee stuff!</p>
+                    <button>Click here for blah blah</button>
+                </div>
+                <div>
+                    <h1>IMAGE</h1>
+                    <p>Here is a random word about some coffee stuff!</p>
+                    <button>Click here for blah blah</button>
+                </div>
+                <div>
+                    <h1>IMAGE</h1>
+                    <p>Here is a random word about some coffee stuff!</p>
+                    <button>Click here for blah blah</button>
+                </div>
             </Slider>
         </div>
     );

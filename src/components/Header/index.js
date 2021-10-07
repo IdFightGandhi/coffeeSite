@@ -1,16 +1,28 @@
 import React from 'react'
 import 
 {
-    Nav,
-    PromoBox
+    Border,
+    TransparentNavWrapper,
+    TransparentNavBar,
+    TransparentNavItem
+    
 } from './Header.elements';
 
 function Header() {
     return (
-        <Nav>
-            <PromoBox></PromoBox>
+        <>
+            <TransparentNavWrapper id="nav-wrapper">            
             
-        </Nav>
+                <TransparentNavBar id="navbar">
+                    <TransparentNavItem id="coffee-tab">Coffee</TransparentNavItem>
+                    <TransparentNavItem id="coffee-maker-tab">Coffee Makers</TransparentNavItem>
+                    <TransparentNavItem id="accessory-tab">Accessories</TransparentNavItem>
+
+                </TransparentNavBar>
+            </TransparentNavWrapper>
+            
+        </>
+      
     )
 }
 

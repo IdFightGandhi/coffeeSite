@@ -1,67 +1,80 @@
 import styled from 'styled-components';
 
-export const Nav = styled.nav `
-align-items: center;
-background-attachment: scroll;
-background-clip: border-box;
-background-color: rgba(0,0,0,0);
-background-image: none;
-background-origin: padding-box;
-background-position: 0% 0%;
-background-position-x: 0%;
-background-position-y: 0%;
-background-repeat: repeat;
-background-size: auto;
-border-bottom-style:none ;
-border-bottom-width: 0px;
-box-sizing:border-box;
-color: rgb(0,0,0);
-display: block;
-height: 130px;
-left: 110px;
-line-height: 21px;
-padding-top: 40px;
-position: fixed;
-right: 0px;
-text-align: left;
-top: 0px;
-transition-delay: 0s;
-transition-duration: 0.5s;
-transition-property: background-color;
-transition-timing-function: cubic-bezier(0.12, 0.96, 0.53, 1.01);
-width: 1397px;
-z-index: 20;
-;
-`
 
-export const PromoBox = styled.div `
+export const Border = styled.div `
 background-color: black;
 box-sizing: border-box;
-color: rgb(255,255,255);
-display: block;
-font-size: 13px;
-font-weight: 400;
+/* display: flex; */
 height: 40px;
-left: 0px;
-letter-spacing: 0.6px;
-line-height: 20px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 10px;
 position: absolute;
-right:0px;
-text-align: center;
+z-index: 1;
+width: 100%;
+
+`
+
+
+export const TransparentNavWrapper = styled.div `
+margin: 0;
+padding: 0;
+z-index: 1;
+border-top: 60px solid black;
+margin-left:7em;
+`
+
+export const TransparentNavBar = styled.nav `
+position: absolute;
+justify-content: center;
+display: flex;
+width: 100%;
+height: 10px;
+
+box-sizing: border-box;
+background: transparent;
+z-index:1;
+
+`
+
+export const TransparentNavItem = styled.ul`
+
+list-style: none;
+justify-content: center;
+margin: 100px 40px;
+/* display: flex; */
+justify-content: space-between;
+color: gold;
 text-transform: uppercase;
-top: 0px;
-transition-delay:0s;
-transition-duration: 0.5s;
-transition-property: all;
-transition-timing-function: cubic-bezier(0.12,0.96,0.53,1.01);
-z-index: 10;
-`
 
-export const MenuContainer = styled.div `
-
+&:hover{
+    background-color: purple;
+}
 
 `
+
+const NavbarDropdown = styled.div`
+    position: relative;
+    display: inline-block;
+
+    &:hover {
+      display: block;
+    }
+  `;
+  const NavbarDropdownContent = styled.div`
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 2);
+    padding: 12px 16px;
+    z-index: 1;
+  `;
+
+// export const Navbar: React.FC = () => {
+//   return (
+//     <NavbarDropdown>
+//       <span>Menu</span>
+//       <NavbarDropdownContent>
+//         <Link to="/">Dropdown here</Link>
+//       </NavbarDropdownContent>
+//     </NavbarDropdown>
+//   );
+// };
