@@ -1,4 +1,4 @@
-export const sliderSettings = {
+export const SliderSettings = {
         dots: false,
         infinite: true,
         speed: 250,

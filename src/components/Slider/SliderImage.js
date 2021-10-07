@@ -1,8 +1,6 @@
 import React from 'react';
 // packages
 import { Fade } from 'react-awesome-reveal';
-// styled componenets
-import { Image } from './Slider.elements';
 
 export const SliderImages = (props) => {
     return (
@@ -19,7 +17,7 @@ export const SliderImages = (props) => {
             <Fade className="slider-button-wrapper" triggerOnce={true} delay={1000} duration={500}>
                 <button>{props.btnText}</button>
             </Fade>
-            <Image {...props} />
+            <img {...props} />
         </div>
     )
 }
