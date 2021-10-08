@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import GlobalStyle from './globalStyles';
 import {CoffeeStore, CoffeeMakerStore, AccessoriesStore} from './components/pages/Store'
 import styled from 'styled-components'
+import { Carousel } from './components/Carousel';
 
 export const SliderWrap = styled.div `
 margin-left: 7rem;
@@ -38,7 +39,8 @@ function App() {
       </SidebarWrap>
       
       <SliderWrap id="slider-wrap">
-        <LandingSlider id="landing-slider"/>
+        <Carousel />
+        {/* <LandingSlider id="landing-slider"/> */}
       </SliderWrap>
     </>
 
