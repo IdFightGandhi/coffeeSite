@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
+export const SidebarContainer = styled.div `
+position:absolute;
+height:100vh;
+width:200px;
+
+`
 export const Nav = styled.li`
 background: transparent;
 height: 80px;
@@ -43,11 +49,11 @@ align-items: center;
 export const SidebarNav = styled.nav`
 background: white;
 width: 200px;
-height:100vh;
+height:100%;
 display: flex;
 flex-direction: column;
-/* justify-content: space-evenly; */
-position: fixed;
+/* justify-content: space-between; */
+position: absolute;
 top: 0;
 left: ${({ sidenav }) => (sidenav ? '0' : '-100%')};
 transition: 150ms;
