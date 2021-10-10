@@ -1,5 +1,7 @@
 import React from 'react'
-import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
+import { FaInstagram, FaTwitter, FaFacebook,  } from 'react-icons/fa'
+import * as FaIcons from 'react-icons/fa'
+
 import { 
     FooterContainer, 
     FooterWrap,
@@ -24,8 +26,12 @@ function Footer() {
                 <FooterWrap>
                     <FooterLinksContainer>
                         <FooterLinksWrapper>
+                        <SocialLogo to='/'>
+                                    <FaIcons.FaCoffee />
+                                </SocialLogo>
+
                             <FooterLinkItems>
-                                <FooterLinkTitle>Chioto Coffee Company</FooterLinkTitle>
+                                <FooterLinkTitle>Chioto Coffee</FooterLinkTitle>
                                 <FooterLink to="/">Home</FooterLink>
                                 <FooterLink to="/about">About Us</FooterLink>
                                 <FooterLink to="/">Careers</FooterLink>
@@ -49,10 +55,6 @@ function Footer() {
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
                             <SocialMediaWrap>
-                                <SocialLogo to='/'>
-                                    Chioto Coffee
-                                </SocialLogo>
-                                <WebsiteRights>Chioto Coffee Company © {new Date().getFullYear()} All Rights Reserved </WebsiteRights>
                                 <SocialIcons>
                                     <SocialIconLink href="//www.facebook.com" target="_blank" aria-label="Facebook">
                                         <FaFacebook />
@@ -67,7 +69,10 @@ function Footer() {
                             </SocialMediaWrap>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>
+                    
                 </FooterWrap>
+                <WebsiteRights>Chioto Coffee Company © {new Date().getFullYear()} All Rights Reserved </WebsiteRights>
+
 
             </FooterContainer>
         </>
