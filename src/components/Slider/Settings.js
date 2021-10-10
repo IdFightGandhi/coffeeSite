@@ -1,11 +1,12 @@
-export const sliderSettings = {
+export const SliderSettings = {
         dots: false,
         infinite: true,
-        speed: 5000,
+        speed: 250,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 5000,
+        draggable: true,
+        autoplaySpeed: 3500,
         // sets a breakpoint for when screen size is reduced
         responsive: [
                 {
