@@ -5,24 +5,24 @@ import coffeemachine from '../../images/coffeemachine.jpeg'
 
 export const SliderDetails = [
     {
-        headerTitle: "Chioto Coffee",
-        smallText: "Wake up to the fresh smell of coffee",
+        header: "Chioto Coffee",
+        small: "Wake up to the fresh smell of coffee",
         src: `${coffeecup}`,
         alt: "Cup of coffee",
-        btnText: "Discover More"
+        btn: "Discover More"
     },
     {
-        headerTitle: "Chioto Supplies",
-        smallText: "Wake up to the fresh smell of coffee",
+        header: "Chioto Supplies",
+        small: "Wake up to the fresh smell of coffee",
         src: `${coffeedrinker}`,
         alt: "Coffee Supplies",
-        btnText: "Purchase Supplies"
+        btn: "Purchase Supplies"
     },
     {
-        headerTitle: "Chioto Coffee",
-        smallText: "Wake up to the fresh smell of coffee",
+        header: "Chioto Coffee",
+        small: "Wake up to the fresh smell of coffee",
         src: `${coffeemachine}`,
         alt: "Cup of coffee",
-        btnText: "Discover More"
+        btn: "Discover More"
     }
 ]

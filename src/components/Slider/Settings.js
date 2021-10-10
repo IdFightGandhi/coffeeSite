@@ -27,6 +27,5 @@ export const SliderSettings = {
                         breakpoint: 800,
                         settings: "unslick"
                 }
-
         ]
 };

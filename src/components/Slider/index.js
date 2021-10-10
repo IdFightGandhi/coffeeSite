@@ -15,12 +15,12 @@ export const LandingSlider = () => {
         // console.log(deets)
         return (
             <SliderImages
-                headerTitle={deets.headerTitle}
-                smallText={deets.smallText}
+                header={deets.header}
+                small={deets.small}
                 src={deets.src}
                 alt={deets.alt}
-                btnText={deets.btnText}
-                key={deets.btnText}
+                btn={deets.btn}
+                key={deets.btn}
             />
         )
     });
