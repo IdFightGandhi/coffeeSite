@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
+import Footer from './components/Footer'
 import { LandingSlider } from './components/Slider';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import GlobalStyle from './globalStyles';
@@ -40,6 +41,9 @@ function App() {
       <SliderWrap id="slider-wrap">
         <LandingSlider id="landing-slider" />
       </SliderWrap>
+      <Router id="footer-router">
+        <Footer />
+      </Router>
     </>
 
   );
