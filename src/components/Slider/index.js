@@ -1,4 +1,5 @@
 import React from "react";
+// packages
 import Slider from "react-slick";
 // css styling sheet
 import './index.css';
@@ -31,5 +32,4 @@ export const LandingSlider = () => {
             </Slider>
         </div>
     );
-
 };

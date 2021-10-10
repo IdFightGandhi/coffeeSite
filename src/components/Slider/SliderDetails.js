@@ -24,12 +24,5 @@ export const SliderDetails = [
         src: `${coffeemachine}`,
         alt: "Cup of coffee",
         btnText: "Discover More"
-    },
-    {
-        headerTitle: "Chioto Supplies",
-        smallText: "Wake up to the fresh smell of coffee",
-        src: `${coffeecup}`,
-        alt: "Coffee Supplies",
-        btnText: "Purchase Supplies"
     }
 ]
