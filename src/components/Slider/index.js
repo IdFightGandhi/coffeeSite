@@ -1,5 +1,5 @@
-import React from "react";
 // packages
+import React from "react";
 import Slider from "react-slick";
 // css styling sheet
 import './index.css';
