@@ -10,27 +10,30 @@ import {
     FooterLink,
     FooterLinksContainer,
     FooterLinkItems,
-    FooterTitle,
     SocialMediaWrap,
     SocialLogo,
     WebsiteRights,
     SocialIconLink,
     SocialIcons,
+    FooterBottomContainer,
+    FooterBottomWrap,
+    FooterBottomMenu,
+    FooterBottomItem
 } from './Footer.elements'
 
 
 function Footer() {
     return (
         <>
-            <FooterContainer>
-                <FooterWrap>
-                    <FooterLinksContainer>
-                        <FooterLinksWrapper>
+            <FooterContainer id="footer-container">
+                <FooterWrap id="footer-wrap">
+                    <FooterLinksContainer id="footer-links-container">
+                        <FooterLinksWrapper id="footer-links-wrap">
                         <SocialLogo to='/'>
                                     <FaIcons.FaCoffee />
                                 </SocialLogo>
 
-                            <FooterLinkItems>
+                            <FooterLinkItems id="footer-link-column1">
                                 <FooterLinkTitle>Chioto Coffee</FooterLinkTitle>
                                 <FooterLink to="/">Home</FooterLink>
                                 <FooterLink to="/about">About Us</FooterLink>
@@ -38,7 +41,7 @@ function Footer() {
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
-                            <FooterLinkItems>
+                            <FooterLinkItems id="footer-link-column2">
                                 <FooterLinkTitle>Store</FooterLinkTitle>
                                 <FooterLink to="/">Coffee</FooterLink>
                                 <FooterLink to="/about">Coffee Makers</FooterLink>
@@ -46,16 +49,16 @@ function Footer() {
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
-                            <FooterLinkItems>
+                            <FooterLinkItems id="footer-link-column3">
                                 <FooterLinkTitle>Follow Us</FooterLinkTitle>
                                 <FooterLink to="/">Instagram</FooterLink>
                                 <FooterLink to="/about">Facebook</FooterLink>
                                 <FooterLink to="/">Twitter</FooterLink>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
-                        <FooterLinksWrapper>
+                        <FooterLinksWrapper id="footer-link-column-socialmedia">
                             <SocialMediaWrap>
-                                <SocialIcons>
+                                <SocialIcons id="social-media-icons">
                                     <SocialIconLink href="//www.facebook.com" target="_blank" aria-label="Facebook">
                                         <FaFacebook />
                                     </SocialIconLink>
@@ -69,10 +72,18 @@ function Footer() {
                             </SocialMediaWrap>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>
-                    
                 </FooterWrap>
-                <WebsiteRights>Chioto Coffee Company © {new Date().getFullYear()} All Rights Reserved </WebsiteRights>
-
+                
+                <FooterBottomContainer id="footer-bottom">
+                    <FooterBottomWrap>
+                        <FooterBottomMenu id="footer-bottom-menu">
+                            <FooterBottomItem>About Us</FooterBottomItem>
+                            <FooterBottomItem>Our Story</FooterBottomItem>
+                            <FooterBottomItem>Contact Us</FooterBottomItem>
+                        </FooterBottomMenu>
+                        <WebsiteRights>Chioto Coffee Company © {new Date().getFullYear()} All Rights Reserved </WebsiteRights>
+                    </FooterBottomWrap>
+                </FooterBottomContainer>
 
             </FooterContainer>
         </>

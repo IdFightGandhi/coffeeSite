@@ -80,7 +80,7 @@ margin-bottom: 0.5rem;
 font-size: 14px;
 
 &:hover {
-    color:gold;
+    color:red;
     transition: 0.3s ease-out;
     text-decoration: underline;
 }
@@ -115,17 +115,14 @@ padding-right:32px;
 font-weight: bold;
 
 &:hover {
-    color:gold;
+    color:red;
     transition: 0.3s ease-out;
     text-decoration: underline;
 }
 
 `
 
-export const WebsiteRights = styled.small`
-color:#fff;
-margin: 16px 0px;
-`
+
 
 export const SocialIcons = styled.div`
 display: flex;
@@ -141,10 +138,62 @@ font-size: 24px;
 color:#fff;
 
 &:hover {
-    color:gold;
+    color:red;
     transition: 0.3s ease-out;
     text-decoration: underline;
 }
+`
+
+export const FooterBottomContainer = styled.section `
+display: block;
+font-size:14px;
+line-height: 21px;
+/* align-items: center; */
+box-sizing: border-box;
+color: #888;
+padding: 60px;
+`
+
+export const FooterBottomWrap = styled.div`
+display: flex;
+flex-wrap:wrap;
+
+`
+
+export const WebsiteRights = styled.div`
+color:#fff;
+font-size: 14px;
+max-width: 50%; 
+position: relative;
+text-align: right;
+margin-left: 40px;
+`
+export const FooterBottomMenu = styled.div`
+display: flex;
+/* padding: 10px, 10px; */
+justify-content: flex-start;
+/* max-width: 50%; */
+text-align: left;
+
+`
+
+export const FooterBottomItem = styled.ul`
+color:#d7d7d7;
+position: relative;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 1.125rem;
+width: auto;
+margin: 0 20px 0 0;
+
+&:hover {
+    color:red;
+    transition: 0.3s ease-out;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 `
 
 

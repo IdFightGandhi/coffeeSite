@@ -7,7 +7,8 @@ import {
     SidebarNav,
     SidebarWrap,
     LogoIcon,
-    Spacer
+    Spacer,
+    SidebarContainer
 
 } from './Sidebar.elements'
 import { SidebarData } from './SidebarData'
@@ -23,6 +24,7 @@ const Sidebar = () => {
     const showSidebar = () => setSidebar(!sidebar)
     return (
         <>
+        {/* <SidebarContainer> */}
         {/* Here is the hamburger icon with an onClick function which opens the sidebar */}
         
         <IconContext.Provider value={{ color: 'black'}}>
@@ -50,8 +52,9 @@ const Sidebar = () => {
             </SidebarNav>
 
             </IconContext.Provider>
-            
+        {/* </SidebarContainer> */}
         </>
+        
     )
 }
 
