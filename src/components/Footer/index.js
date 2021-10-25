@@ -72,8 +72,8 @@ function Footer() {
                             </SocialMediaWrap>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>
-                    
                 </FooterWrap>
+                
                 <FooterBottomContainer id="footer-bottom">
                     <FooterBottomWrap>
                         <FooterBottomMenu id="footer-bottom-menu">

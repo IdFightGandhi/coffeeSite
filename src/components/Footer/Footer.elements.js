@@ -147,7 +147,6 @@ color:#fff;
 export const FooterBottomContainer = styled.section `
 display: block;
 font-size:14px;
-padding: 30px, 60px;
 line-height: 21px;
 align-items: center;
 box-sizing: border-box;
@@ -161,12 +160,12 @@ align-items: center;
 
 export const WebsiteRights = styled.small`
 color:#fff;
-margin: 16px 0px;
+margin: 16px, 16px, 8px, 0px;
 font-size: 14px;
 display: flex;
 max-width: 50%;
 position: relative;
-
+text-align: right;
 `
 export const FooterBottomMenu = styled.div`
 display: flex;
@@ -185,6 +184,14 @@ letter-spacing: 1px;
 font-size: 1.125rem;
 width: auto;
 margin: 0 20px 0 0;
+
+&:hover {
+    color:gold;
+    transition: 0.3s ease-out;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 `
 
