@@ -18,10 +18,7 @@ import { IconContext } from 'react-icons/lib'
 
 //This is the javascript that creates the disappearing sidebar menu.
 
-const Sidebar = () => {
-    const [sidebar, setSidebar] = useState(false)
-
-    const showSidebar = () => setSidebar(!sidebar)
+function Sidebar(props) {
     return (
         <>
         {/* <SidebarContainer> */}
@@ -34,22 +31,11 @@ const Sidebar = () => {
             
             <Nav id="hamburger">
                 <NavIcon to="#">
-                    <FaIcons.FaBars onClick={showSidebar} />
+                    <FaIcons.FaBars onClick={props.onClickFunction} />
                 </NavIcon>
             </Nav>
             {/* When the sidebar opens, hamburger turns into an X */}
-            <SidebarNav sidenav={sidebar}>
-                
-                {/* This comes from the SidebarData file which maps through the choices and displays */}
-                {SidebarData.map((item, index) => {
-                    return<SubMenu item={item} key={index} />
-                })}<SidebarWrap>
-                <NavIcon to="#">
-                    <AiIcons.AiOutlineClose onClick={showSidebar} /> 
-                </NavIcon>
-                </SidebarWrap>
-                <Spacer />
-            </SidebarNav>
+            
 
             </IconContext.Provider>
         {/* </SidebarContainer> */}

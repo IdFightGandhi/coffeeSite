@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const SidebarContainer = styled.div `
-position:absolute;
+position:fixed;
 height:100vh;
 width:200px;
 
@@ -53,7 +53,7 @@ height:100%;
 display: flex;
 flex-direction: column;
 /* justify-content: space-between; */
-position: absolute;
+position: fixed;
 top: 0;
 left: ${({ sidenav }) => (sidenav ? '0' : '-100%')};
 transition: 150ms;
